@@ -1,0 +1,24 @@
+# SolidWorks Files
+*.sldprt
+*.sldasm
+*.slddrw
+
+# Simulation Files
+*.sldasm_simulation
+*.sldprt_simulation
+
+# Other SolidWorks Related Files
+*.bak
+*.log
+*.PRTGC
+*.sldblk
+*.slddrt
+*.sldlfp
+*.sldmat
+*.sldreg
+*.sldsetdoc
+*.sldstyle
+*.sldtbt
+*.sldtol
+*.sldwrk
+Thumbs.db
