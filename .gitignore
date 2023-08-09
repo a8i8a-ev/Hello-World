@@ -1,24 +1,39 @@
-# SolidWorks Files
-*.sldprt
-*.sldasm
-*.slddrw
+# .gitignore for SolidWorks projects
 
-# Simulation Files
-*.sldasm_simulation
-*.sldprt_simulation
-
-# Other SolidWorks Related Files
+# Ignored SolidWorks temporary files
 *.bak
-*.log
-*.PRTGC
-*.sldblk
-*.slddrt
-*.sldlfp
-*.sldmat
-*.sldreg
-*.sldsetdoc
-*.sldstyle
-*.sldtbt
-*.sldtol
-*.sldwrk
-Thumbs.db
+*.sldbak
+*.slddrt~
+*.slddrw~
+*.sldprt~
+*.sldasm~
+
+# Ignored SolidWorks cache files
+sldworks_ip.mdb
+sldworks.log
+
+# Ignored SolidWorks Toolbox data
+*_sldprt.sldprt
+*_sldasm.sldasm
+*_slddrw.slddrw
+
+# Ignored SolidWorks Simulation files
+*.cwr
+*.cwh
+*.h3d
+*.iux
+*.xar
+
+# Ignored SolidWorks PDM files
+*.sldasm@$PRJ*.*
+*.sldprt@$PRJ*.*
+*.slddrw@$PRJ*.*
+
+# Ignored SolidWorks FeatureManager design tree files
+$PdmLog
+
+# Ignored SolidWorks visual configuration files
+*.[Bb]mp
+*.[Jj][Pp][Gg]
+*.[Pp][Nn][Gg]
+*.[Gg][Ii][Ff]
